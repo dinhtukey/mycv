@@ -325,46 +325,66 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.nodejs {
+  	width: 70%;
+  	-moz-animation: nodejs 2s ease;
+  	-webkit-animation: nodejs 2s ease;
+}
+.vuejs {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: vuejs 2s ease;
+  	-webkit-animation: vuejs 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.php {
+  	width: 70%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 70%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.javascript {
+  	width: 60%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.c {
+   width: 60%;
+   -moz-animation: c 2s ease;
+   -webkit-animation: c 2s ease;
+}
+.office {
+   width: 60%;
+   -moz-animation: office 2s ease;
+   -webkit-animation: office 2s ease;
+}
+.logical {
+   width: 60%;
+   -moz-animation: logical 2s ease;
+   -webkit-animation: logical 2s ease;
+}
+.speaking {
+   width: 60%;
+   -moz-animation: speaking 2s ease;
+   -webkit-animation: speaking 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes nodejs {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes vuejs {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes php {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -376,20 +396,36 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes c {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes office {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes logical {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes speaking {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes nodejs {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes vuejs {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes php {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -401,10 +437,26 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-webkit-keyframes c {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes office {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes logical {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes speaking {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -1004,3 +1056,11 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+
+
+
+/* fix */
+.title_project{
+   color: #7c6217;
+}
